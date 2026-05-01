@@ -28,7 +28,7 @@ local function CallMom()
     task.wait(1)
     print("mom : hello?")
     task.wait(0.5)
-    print("you : mom i ate the dog")
+    print("you : Sup mom i ate the dog")
     task.wait(0.3)
     print("mom : WHAT")
     task.wait(0.3)
@@ -39,6 +39,8 @@ local function CallMom()
     print("you : ...")
     task.wait(0.3)
     print("you : tasted fine tho")
+    task.wait(0.3)
+    print("mom : I'm disowning u ni-")
     task.wait(0.3)
     print("mom : *hangs up*")
 end
@@ -56,15 +58,15 @@ if MotherAlive then
     end
 else
     if DogInFridge then
-        print("mom is gone")
+        print("mom is gone grrr")
         task.wait(0.5)
         print("nobody can stop me now")
         task.wait(0.3)
         EatDog()
         task.wait(1)
-        print("miss you mom")
+        print("I hate you mom")
         task.wait(0.3)
-        print("the dog too actually")
+        print("the dog too actually even if it tasted good")
     else
         print("mom gone. dog gone.")
         task.wait(1)
@@ -74,6 +76,6 @@ else
         task.wait(0.5)
         print("*drinks ketchup*")
         task.wait(0.5)
-        print("peak nutrition")
+        print("peak nutrition , is this tuff in Fransuzky")
     end
 end
